@@ -1,0 +1,16 @@
+{
+  "name": "atlas-commerce-remotion",
+  "version": "1.0.0",
+  "description": "Proyecto Remotion de Atlas Commerce (Atlas Studio) - video programatico para contenido promocional.",
+  "scripts": {
+    "start": "remotion studio src/index.js",
+    "build": "remotion render src/index.js AtlasIntro out/atlas_intro.mp4"
+  },
+  "dependencies": {
+    "remotion": "^4.0.486",
+    "@remotion/cli": "^4.0.486",
+    "@remotion/renderer": "^4.0.486",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
+  }
+}

@@ -5,3 +5,7 @@
 # Archivos de sistema
 .DS_Store
 Thumbs.db
+
+# Dependencias de Node (nunca se versionan)
+node_modules/
+package-lock.json
